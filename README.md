@@ -1,2 +1,3 @@
-# nodejs-simple-authentication
-Tryin' to make a simple authentication system with NodeJS
+# NodeJS Simple Authentication
+
+Simple authentication system build with NodeJS (PostgreSQL, Express, React, Node). More documentation will released soon!
