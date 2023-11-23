@@ -1,0 +1,44 @@
+{
+	"name": "NodeJS Simple Authentication",
+	"forwardPorts": [3000, 5000, 8000],
+	"remoteUser": "vscode",
+    "workspaceMount": "src=${localWorkspaceFolder},dst=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace",
+	"build": {
+		"dockerfile": "dockerfile"
+	},
+	"extensions": [
+		"akamud.vscode-theme-onedark",
+		"Cardinal90.multi-cursor-case-preserve",
+		"christian-kohler.npm-intellisense",
+		"dbaeumer.vscode-eslint",
+		"dsznajder.es7-react-js-snippets",
+		"dzhavat.bracket-pair-toggler",
+		"esbenp.prettier-vscode",
+		"idered.npm",
+		"oderwat.indent-rainbow",
+		"PKief.material-icon-theme",
+		"Prisma.prisma",
+		"wmaurer.change-case"
+	],
+	"features": {
+		"common": {
+			"username": "automatic",
+			"uid": "automatic",
+			"gid": "automatic",
+			"installZsh": true,
+			"upgradePackages": true
+		},
+		"docker-from-docker": {
+			"version": "latest",
+			"moby": false,
+			"dockerDashComposeVersion": "v2"
+    	},
+		"github-cli": "latest"
+	},
+	"settings": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"workbench.colorTheme": "Atom One Dark",
+		"workbench.iconTheme": "material-icon-theme"
+	}
+}
