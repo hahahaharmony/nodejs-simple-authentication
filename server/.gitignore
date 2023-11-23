@@ -1,0 +1,13 @@
+# modules
+node_modules/
+
+# build
+build/
+dist/
+
+# environment
+.env
+.env.dev
+.env.local
+.env.prod
+.env.production
